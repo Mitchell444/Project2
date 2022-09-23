@@ -1,16 +1,34 @@
 #logo {
     color: blue;
-    font-size: 40px;
+    font-size: 33px;
     margin: auto;
+    max-width: max-content
 }
 #topText {
     color: blue;
-    font-size: 50px;
-    font-weight: 'bold';
+    font-size: 36px;
+    font-weight: '400';
+    font-family: 'Arial';
 }
 #topTextBlack {
-    font-size: 50px;
+    font-size: 34px;
+    font-family: 'Arial';
+}
+.dayText {
+    font-size: 20px;
+    font-family: 'Arial';
+    font-weight: 'bold'
+}
+.tempText{
+    font-size: 20px;
+    color: gray;
+    font-family: 'Times New Roman';
 }
 p {
+    max-width: max-content;
     margin: auto;
+}
+div {
+    max-width: max-content;
+    margin: auto; 
 }
